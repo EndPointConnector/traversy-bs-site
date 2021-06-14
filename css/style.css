@@ -1,0 +1,110 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.fixed {
+  position: fixed;
+}
+
+.main-nav {
+  background: #333;
+  height: 45px;
+  width: 100%;
+  overflow: auto;
+}
+
+.nav-flex {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-flex ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-flex ul li {
+  margin: 0 10px;
+}
+
+.main-nav .logo {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.main-nav li a {
+  color: #aaa;
+  transition: 0.2s;
+}
+
+.main-nav li a:hover {
+  color: #eee;
+  transition: 0.2s;
+}
+
+/* Showcase */
+
+.showcase {
+  background: #333;
+  color: #fff;
+}
+
+.showcase .left span {
+  color: #ff0;
+}
+
+.showcase-flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: flex-end;
+}
+
+.showcase-flex .left {
+  align-self: center;
+}
+
+/* Newsletter */
+
+.newsletter {
+  background-color: #0d6efd;
+  color: #fff;
+  height: 100px;
+}
+
+.news-flex {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="email"] {
+  width: 500px;
+  height: 50px;
+}
+
+input[type="submit"] {
+  margin-left: -120px;
+  height: 50px;
+  width: 116px;
+  margin-top: 1px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Formats */
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

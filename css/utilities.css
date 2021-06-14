@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.x-large {
+  font-size: 4rem;
+  /* line-height: 1.2; */
+  /* margin-bottom: 1rem; */
+}
+
+.large {
+  font-size: 3rem;
+  /* line-height: 1.2; */
+  /* margin-bottom: 1rem; */
+}
+
+.medium {
+  font-size: 2rem;
+  /* line-height: 1.2; */
+  /* margin-bottom: 1rem; */
+}
+
+.lead {
+  font-size: 1.2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.round-img {
+  border-radius: 50%;
+}

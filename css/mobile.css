@@ -1,0 +1,5 @@
+@media (max-width: 1050px) {
+  .news-flex {
+    flex-direction: column;
+  }
+}
